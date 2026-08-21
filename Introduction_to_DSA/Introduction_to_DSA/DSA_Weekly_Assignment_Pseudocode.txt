@@ -1,0 +1,78 @@
+DATA STRUCTURES AND ALGORITHMS (DSA) PRACTICE SHEET
+
+SECTION 1: PSEUDOCODE PROBLEMS
+
+---
+
+## PC-1: PRIME NUMBER CHECKER
+
+Algorithm: Check whether a number is Prime or Not Prime
+
+START
+
+1. Input N
+
+2. Set isPrime = true
+
+3. Set i = 2
+
+4. Repeat while i * i <= N
+
+   If N % i == 0 then
+   Set isPrime = false
+   Break
+   End If
+
+   Set i = i + 1
+
+   End Repeat
+
+5. If isPrime == true then
+   Display "Prime"
+   Else
+   Display "Not Prime"
+   End If
+
+6. STOP
+
+Example 1:
+Input: N = 61
+Output: Prime
+
+Example 2:
+Input: N = 8
+Output: Not Prime
+
+---
+
+## PC-2: NUMBER DIGIT REVERSAL
+
+Algorithm: Reverse the digits of a number
+
+START
+
+1. Input N
+
+2. Set reverse = 0
+
+3. Repeat while N > 0
+
+   Set digit = N % 10
+
+   Set reverse = reverse * 10 + digit
+
+   Set N = N / 10
+
+   End Repeat
+
+4. Display reverse
+
+5. STOP
+
+Example 1:
+Input: N = 1234
+Output: 4321
+
+Example 2:
+Input: N = 806
+Output: 608
